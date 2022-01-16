@@ -12,8 +12,8 @@ def login_check(username=None,password=None):
     :return:
     '''
     if username!=None and password!=None:
-        if username=='python35' and password =='a123':
-            return {'code':0,'msg':'登陆成功'}
+        if username=="python35" and password =="a123":
+            return {"code":0,"msg":"登陆成功"}
         else:
             return {'code':1,'msg':'账号或密码不正确'}
     else:
